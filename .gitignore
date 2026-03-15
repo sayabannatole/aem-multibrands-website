@@ -1,0 +1,25 @@
+# Java and AEM Project Standard .gitignore
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.db
+
+# Maven
+/.mvn/target/
+/target/
+
+# Node.js
+node_modules/
+
+# Mac OS
+.DS_Store
+
+# AEM
+*.launch
+*.content.xml
+*.xml
+crx-quickstart/.*
+crx-quickstart/install/.*
